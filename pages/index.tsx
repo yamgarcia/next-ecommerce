@@ -1,7 +1,7 @@
 import type { InferGetStaticPropsType } from "next";
 
 export async function getStaticProps() {
-  const products = [1, 2, 3];
+  const products = [1, 2, 3, 4];
 
   return {
     props: {
